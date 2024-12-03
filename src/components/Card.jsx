@@ -19,7 +19,7 @@ function Card( {tag, heading, text}) {
                 <p className='ml-3 text-gray-600 text-[16px]'>{text}</p>
             </div>
             <div>
-                <span className='ml-3 text-blue-500'>Read more <FaArrowRight className='inline'/> </span> 
+                <span className='ml-3 text-blue-500 cursor-pointer'>Read more <FaArrowRight className='inline'/> </span> 
             </div>
         </div>
     
